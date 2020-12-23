@@ -1,0 +1,16 @@
+Step 1 :
+Open a new terminal and type arduino to open arduino (DO NOT CLOSE THE TERMINAL)
+Step 2 :
+Open the sketch below by choosing ros_lib -> HelloWorld from the Arduino examples menu and upload the code into Arduino
+Step 3 :
+Open another new terminal and execute the below command : (DO NOT CLOSE THE TERMINAL)
+roscore
+Step 4 : 
+Open another new terminal and execute the below command : (DO NOT CLOSE THE TERMINAL)
+rosrun rosserial_python serial_node.py /dev/ttyUSB0
+Step 5 : 
+Open another new terminal and execute the below command : (DO NOT CLOSE THE TERMINAL)
+rostopic echo chatter
+
+
+
